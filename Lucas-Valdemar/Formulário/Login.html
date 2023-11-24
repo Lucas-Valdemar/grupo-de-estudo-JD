@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>exercício grupo de estudos</title>
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <h2>Área de acesso</h2>
+    <section>
+      <div id="container">
+        <form>
+          <fieldset id="field">
+            <label
+              >Nome:
+              <input type="text" style="margin-left: 25.8px" id="nome" />
+            </label>
+            <label
+              >Email:
+              <input type="email" style="margin-left: 30.4px" id="email" />
+            </label>
+            <label
+              >Número:
+              <input type="number" style="margin-left: 8.6px" id="numero" />
+            </label>
+            <label
+              >Senha:
+              <input type="password" style="margin-left: 24.6px" id="senha" />
+            </label>
+
+            <div
+              id="button"
+              style="padding: 10px; margin: 0 auto; width: fit-content"
+            >
+              <input type="submit" value="Enviar" id="buttonInput" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <div class="popUp">
+      <div class="complete">
+        <h2>Concluído!</h2>
+        <p>Sucesso no Login.</p>
+        <p id="smallText">
+          Você pode conferir os dados <br />
+          enviados no console.
+        </p>
+      </div>
+
+      <div class="refreshContainer">
+        <a href="Login.html">
+          <div class="refresh">Reiniciar</div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
