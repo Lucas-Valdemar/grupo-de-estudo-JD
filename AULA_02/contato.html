@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercício do monitor</title>
+    <style type="text/css">
+      form Label {
+        display: block;
+        text-align: start;
+      }
+    </style>
+  </head>
+  <body>
+    <section style="display: flex; justify-content: center">
+      <div>
+        <h2 style="text-align: center">Formulário de contato</h2>
+        <form>
+          <fieldset>
+            <legend>Formulário</legend>
+            <label
+              >Nome:
+              <input type="text" style="margin-left: 95.5px" />
+            </label>
+            <label
+              >Sobrenome:
+              <input type="text" style="margin-left: 61.75px" />
+            </label>
+            <label
+              >Email:
+              <input type="email" style="margin-left: 96.4px" />
+            </label>
+            <label
+              >Data de Nascimento:
+              <input type="date" style="margin-left: 65.6px" />
+            </label>
+            <label
+              >Linguagem preferida:
+              <select name="Linguagens" style="width: 177px">
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="C">C</option>
+              </select>
+            </label>
+            <label style="text-align: start">
+              <p style="display: inline; position: relative; top: -49px">
+                Mensagem:
+              </p>
+              <textarea
+                style="
+                  resize: none;
+                  margin-left: 64.4px;
+                  height: 60px;
+                  width: 171px;
+                "
+              ></textarea>
+            </label>
+            <div
+              id="button"
+              style="padding: 10px; margin: 0 auto; width: fit-content"
+            >
+              <input
+                type="submit"
+                value="Enviar"
+                style="width: 70px; height: 30px; font-size: 16px"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
